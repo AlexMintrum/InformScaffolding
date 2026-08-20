@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>InformScaffolding – Scaffolding Across Southampton &amp; Hampshire</title>
 <meta name="description" content="CISRS qualified, fully insured scaffolding across Southampton and Hampshire. 10+ years' experience. Fast quotes, safe installations.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj4KPHJlY3Qgd2lkdGg9IjEyMCIgaGVpZ2h0PSIxMjAiIHJ4PSIyMiIgZmlsbD0iI0Q5OEUyQiIvPgo8cGF0aCBkPSJNNDAgOTZWMjIiIHN0cm9rZT0iIzEwMUMzMyIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPHBhdGggZD0iTTQwIDI0SDkyTTQwIDI0TDI0IDMwIiBzdHJva2U9IiMxMDFDMzMiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CjxwYXRoIGQ9Ik0zNCA5NlY0NE02MCA5NlYzOE04NiA5NlY0NCIgc3Ryb2tlPSIjMTAxQzMzIiBzdHJva2Utd2lkdGg9IjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8cGF0aCBkPSJNMzQgNTJIODZNMzQgNjhIODZNMzQgODRIODYiIHN0cm9rZT0iIzEwMUMzMyIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -83,13 +84,14 @@
   }
   .logo{
     font-family:'Space Grotesk',sans-serif;
-    font-weight:700;font-size:1.25rem;color:#fff;
-    display:flex;align-items:center;gap:10px;
+    font-weight:700;font-size:1.28rem;color:#fff;
+    display:flex;align-items:center;gap:12px;
     white-space:nowrap;
     min-width:0;
   }
+  .logo .logo-accent{color:var(--amber-400);}
   .logo-mark{
-    width:30px;height:30px;flex-shrink:0;
+    width:52px;height:52px;flex-shrink:0;
   }
   nav ul{list-style:none;display:flex;gap:32px;}
   nav a{color:#dbe2f0;font-size:0.92rem;font-weight:500;transition:color .15s;}
@@ -122,7 +124,7 @@
     .nav-wrap{padding:12px 16px;gap:10px;}
     nav{display:none;}
     .logo{font-size:1.02rem;overflow:hidden;text-overflow:ellipsis;}
-    .logo-mark{width:26px;height:26px;}
+    .logo-mark{width:40px;height:40px;}
     .nav-cta{gap:10px;}
     .nav-cta .btn-outline{display:none;}
     .nav-cta .btn-primary{
@@ -309,7 +311,7 @@
   footer{background:var(--navy-900);color:#9fabc8;padding:56px 0 28px;}
   .footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px;margin-bottom:40px;min-width:0;}
   @media (max-width:700px){.footer-grid{grid-template-columns:1fr;}}
-  .footer-logo{color:#fff;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1.15rem;margin-bottom:10px;}
+  .footer-logo{color:#fff;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1.15rem;margin-bottom:10px;display:flex;align-items:center;gap:10px;}
   footer h5{color:#fff;font-size:0.85rem;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:14px;}
   footer ul{list-style:none;display:grid;gap:10px;}
   footer a{font-size:0.92rem;color:#9fabc8;transition:color .15s;}
@@ -335,11 +337,21 @@
 <header>
   <div class="nav-wrap">
     <a href="#" class="logo">
-      <svg class="logo-mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="4" y="4" width="24" height="24" rx="4" fill="#D98E2B"/>
-        <path d="M9 22V10M23 22V10M9 14H23M9 18H23" stroke="#101C33" stroke-width="2" stroke-linecap="round"/>
+      <svg class="logo-mark" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+        <rect width="120" height="120" rx="22" fill="#D98E2B"/>
+        <path d="M40 74L60 54L80 74V94H40V74Z" fill="none" stroke="#101C33" stroke-width="1.6" opacity="0.4"/>
+        <path d="M40 96V22" stroke="#101C33" stroke-width="3" stroke-linecap="round"/>
+        <path d="M40 24H92M40 24L24 30" stroke="#101C33" stroke-width="3" stroke-linecap="round"/>
+        <path d="M74 24V38" stroke="#101C33" stroke-width="1.6" stroke-linecap="round"/>
+        <path d="M74 38V44" stroke="#101C33" stroke-width="1.6" stroke-linecap="round"/>
+        <path d="M74 44A2.6 2.6 0 1 0 74 49" stroke="#101C33" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+        <circle cx="40" cy="22" r="2.8" fill="#101C33"/>
+        <path d="M34 96V44M60 96V38M86 96V44" stroke="#101C33" stroke-width="3.6" stroke-linecap="round"/>
+        <path d="M34 52H86M34 68H86M34 84H86" stroke="#101C33" stroke-width="2.8" stroke-linecap="round"/>
+        <path d="M34 52L60 68M60 52L34 68M60 68L86 84M86 68L60 84" stroke="#101C33" stroke-width="1.7" stroke-linecap="round" opacity="0.6"/>
+        <path d="M28 96H40M54 96H66M80 96H92" stroke="#101C33" stroke-width="3.6" stroke-linecap="round"/>
       </svg>
-      <span class="logo-text">InformScaffolding</span>
+      <span class="logo-text">Inform<span class="logo-accent">Scaffolding</span></span>
     </a>
     <nav>
       <ul>
@@ -610,7 +622,16 @@
   <div class="container">
     <div class="footer-grid">
       <div>
-        <div class="footer-logo">InformScaffolding</div>
+        <div class="footer-logo">
+          <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" style="width:40px;height:40px;flex-shrink:0;">
+            <rect width="120" height="120" rx="22" fill="#D98E2B"/>
+            <path d="M40 96V22" stroke="#101C33" stroke-width="5" stroke-linecap="round"/>
+            <path d="M40 24H92M40 24L24 30" stroke="#101C33" stroke-width="5" stroke-linecap="round"/>
+            <path d="M34 96V44M60 96V38M86 96V44" stroke="#101C33" stroke-width="6" stroke-linecap="round"/>
+            <path d="M34 52H86M34 68H86M34 84H86" stroke="#101C33" stroke-width="5" stroke-linecap="round"/>
+          </svg>
+          Inform<span style="color:var(--amber-400);">Scaffolding</span>
+        </div>
         <p style="font-size:0.9rem;max-width:280px;">Reliable, safe, professional scaffolding across Southampton and Hampshire. CISRS qualified, fully insured.</p>
       </div>
       <div>
